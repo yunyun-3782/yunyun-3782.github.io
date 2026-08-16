@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>虚舟实验室 (CaelLab)</title>
+    <link rel="preconnect" href="https://www.caellab.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.caellab.com">
+    <link rel="preload" href="/static/js/index/default2.js" as="script">
+    <link rel="preload" href="/static/js/index/thirdparty.js" as="script">
+    <link rel="icon" href="https://www.caellab.com/favicon.ico" type="image/x-icon">
+    <meta name="description" content="虚舟实验室，是一个意外掉落物)?，降落在了地球的某一艘舟上。探未来之境 · 载无界新生！">
+    <meta name="robots" content="index" />
+    <meta name="keywords" content="虚舟实验室,CaelLab,XuZhouLab,青少年编程团队,探未来之境载无界新生,编程作品,开源项目">
+    <meta name="author" content="CaelLab">
+    <link rel="image_src" href="https://www.caellab.com/static/image/icon/logo.png">
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="97b6cb42c77e9d7bd9fcc721-|49"></script><link rel="preload" href="/static/fonts/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/static/fonts/fonts.css"></noscript>
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="虚舟实验室">
+    <meta property="og:title" content="虚舟实验室 (CaelLab) - 探未来之境 · 载无界新生">
+    <meta property="og:description" content="虚舟实验室，专注于编程领域，致力于创作与发布优质作品。">
+    <meta property="og:url" content="https://www.caellab.com">
+    <meta property="og:image" content="https://www.caellab.com/static/image/icon/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.caellab.com/static/image/icon/logo.png">
+    
+
+
+    
+    
+ 
+
+    <link rel="stylesheet" href="/static/css/index/default2.css">
+    <script src="/static/js/index/default2.js" defer type="97b6cb42c77e9d7bd9fcc721-text/javascript"></script>
+    <script src="/static/js/index/thirdparty.js" defer type="97b6cb42c77e9d7bd9fcc721-text/javascript"></script>
+    <noscript>
+        <link rel="stylesheet" href="/static/css/index/noscript.css">
+    </noscript>
+</head>
+<body>
+    <div id="page-loader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">虚舟实验室</div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="https://www.caellab.com" class="nav-logo">
+                <img src="https://www.caellab.com/static/image/icon/logo.png" alt="CaelLab">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="https://forum.xmuer.online" class="nav-link" target="_blank">论坛</a></li>
+                <li><a href="https://130.wiki" class="nav-link" target="_blank">百科</a></li>
+                <li><a href="https://site.caellab.com" class="nav-link">SiteLop</a></li>
+                <li><a href="https://minecraft.caellab.com" class="nav-link">Minecraft</a></li>
+                <li><a href="https://id.caellab.com/" class="nav-link">ID</a></li>
+                <li><a href="https://codingcommunity.xmuer.online" class="nav-link" target="_blank">编程社区</a></li>
+                <!--<li><a href="https://f.caellab.com" target="_blank" class="nav-link nav-cta">论坛</a></li>-->
+                <li><button id="themeToggle" class="theme-toggle" aria-label="切换主题">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>虚舟实验室</h1>
+            <p class="hero-subtitle">
+                <span id="typewriter">虚舟实验室是专注于编程领域创新的「青少年编程团队」，探未来之境 · 载无界新生<!--与您共赴数字未来--></span>
+                <span class="cursor">|</span>
+            </p>
+            <div class="data-grid">
+                <div class="grid-item">
+                    <span class="data-number" data-target="7">7</span>
+                    <span class="data-label">团队成员（活跃）</span>
+                </div>
+                <div class="grid-item">
+                    <span class="data-number" data-target="7">7</span>
+                    <span class="data-label">创新项目</span>
+                </div>
+                <div class="grid-item">
+                    <span class="data-number" data-target="100">100</span>
+                    <span class="data-label">热情投入(%)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新动态区域 -->
+    <section id="news" class="container">
+        <h2 class="section-title">📢 最新动态</h2>
+        <div class="news-container">
+            <!-- 紧急公告 - 红色
+            <div class="news-card news-urgent">
+                <div class="news-badge">紧急</div>
+                <div class="news-content">
+                    <h3 class="news-title">服务器维护通知</h3>
+                    <p class="news-text">本站将于今晚 22:00-23:00 进行服务器维护，届时部分服务可能暂时不可用。</p>
+                    <span class="news-time">2026-06-23</span>
+                </div>
+            </div>-->
+            <!-- 重要公告 - 橙色
+            <div class="news-card news-important">
+                <div class="news-badge">重要</div>
+                <div class="news-content">
+                    <h3 class="news-title">GPCL 新版本发布！</h3>
+                    <p class="news-text">GoodPlanCraftLauncher v2.0 正式发布，新增多项功能，<a href="https://gamets.caellab.com/gpcl/" target="_blank">点击查看详情</a>。</p>
+                    <span class="news-time">2026-06-20</span>
+                </div>
+            </div>-->
+            <!--<div class="news-card news-normal">
+                <div class="news-badge">动态</div>
+                <div class="news-content">
+                    <h3 class="news-title">EU Monthly Active Recipients</h3>
+                    <p class="news-text">根据《欧盟条例 (EU) 2022/2065》（即《数字服务法》，“DSA”）第24条第(2)款的规定，虚舟实验室（CaelLab）（以下简称“我们”）特此公布 XM UER 服务在欧盟境内的平均月度活跃服务接收者信息（DSA 对“服务接收者”的定义为：通过请求在线平台托管信息，或接触由在线平台托管并通过其在线界面传播的信息，从而与在线平台产生互动的接收者）... <a href="https://forum.xmuer.online/d/246" target="_blank">查看全文</a></p>
+                    <span class="news-time">2026-06-23</span>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+<section id="timeline" class="container">
+    <h2 class="section-title">我们的历程</h2>
+    <div class="timeline-container">
+        <div class="timeline">
+            <div class="timeline-content-wrapper">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年7月5日</div>
+                        <h3>虚舟实验室正式成立</h3>
+                        <p>由王耀泽注册<a href="https://www.xuzhoulab.cn/o/" target="_blank" rel="noopener">xuzhoulab.cn</a>域名，正式开始在CCW平台上创作作品，开启技术探索之旅</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年7月7日</div>
+                        <h3>首次公开招募新成员</h3>
+                        <p>实验室面向公众开放招募，吸引技术爱好者加入</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年8月13日</div>
+                        <h3>脱离果园编程工作室</h3>
+                        <p>正式结束与果园编程工作室<a href="https://130.wiki/wiki/%E8%99%9A%E8%88%9F%E5%AE%9E%E9%AA%8C%E5%AE%A4%EF%BC%88CaelLab%EF%BC%89#%E4%B8%8E%E6%9E%9C%E5%9B%AD%E7%BC%96%E7%A8%8B%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%9A%84%E5%85%B3%E7%B3%BB" target="_blank" rel="noopener">合作关系</a>，独立发展</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年11月21日</div>
+                        <h3>虚舟实验室品牌首次升级</h3>
+                        <p>虚舟实验室全面将域名从xuzhoulab.cn升级为caellab.com，新增<a href="https://forum.xmuer.online/?sort=oldest" target="_blank">论坛</a>，战略迁移数据，新增 <a href="https://x.caellab.com/" target="_blank" rel="noopener">X 板块</a>，等多项全面品牌升级。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年12月26日</div>
+                        <h3>带来新的服务</h3>
+                        <p>虚舟实验室新增资源中心、外链网盘。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年4月1日</div>
+                        <h3>新的百科？</h3>
+                        <p>虚舟实验室创建并运营项目<a href="https://130.wiki/" target="_blank" rel="noopener">轻之舟百科</a>。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年5月7日</div>
+                        <h3>好玩的游戏</h3>
+                        <p><a href="https://gamets.caellab.com/" target="_blank" rel="noopener">CaelLabGameTS</a>登场！！</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年6月3日</div>
+                        <h3>云云大手一挥！XM UER正式落地？</h3>
+                        <p>额？不小心买下了<a href="https://xmuer.online/" target="_blank">xmuur.online</a>，居然是去海鲜市场淘了个19年老域名！，不过的话这个是一个<a href="https://forum.xmuer.online/d/191" target="_blank">新的虚舟实验独立子品牌</a>啦！论坛也一不小心扔过去了？</p>
+                    </div>
+                </div>
+<!--            <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年6月11日</div>
+                        <h3>自己造了个搜索引擎？</h3>
+                        <p>对！就是XMUERSearch <a href="https://search.xmuer.online/" target="_blank">https://search.xmuer.online/</a>。</p>
+                    </div>
+                </div>-->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年6月13日</div>
+                        <h3>等一下。又(不小心)买到域名了？</h3>
+                        <p>继上次买了域名之后，今天又买了一个<a href="https://130.wiki/index.php?title=%E9%A6%96%E9%A1%B5&diff=prev&oldid=704" target="_blank"> 130.pub</a> ，这个是18年的！（买上瘾了是吧）</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年6月27日</div>
+                        <h3>自己干！</h3>
+                        <p>我们自己做了个编程社区，他就叫“XMUER Coding Community”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="products" class="container">
+        <h2 class="section-title">我们的产品</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="product-icon">⌚️</div>
+                <h3 class="product-title">XMUER Browser</h3>
+                <p class="product-description">轻量 · 美观 · 实用 —— 轻量级桌面浏览器</p>
+                <a href="https://browser.xmuer.online/" class="product-link" target="_blank">立即下载</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🤖</div>
+                <h3 class="product-title">CAL AI</h3>
+                <div class="product-status status-completed">全新的AI体验！</div>
+                <p class="product-description">一款简洁高效的 AI 对话式助手。</p>
+                <a href="/2026/calai/" class="product-link">开始对话</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">⬛️</div>
+                <h3 class="product-title">GoodPlanCraftLauncher</h3>
+                <div class="product-status status-completed">轻量的MC启动器！</div>
+                <p class="product-description">一款简洁高效的 Minecraft 启动器，支持离线模式， 自动版本管理，让你秒进方块世界。</p>
+                <a href="https://gamets.caellab.com/gpcl/" class="product-link" target="_blank">⏬ 立即下载</a>
+            </div>
+            <!--<div class="product-card">
+                <div class="product-icon">❄️</div>
+                <h3 class="product-title">2026 CCW Winter GameJam</h3>
+                <div class="product-status status-development">期待查看~</div>
+                <p class="product-description">以雪为燃料，以列车为载，以凉为刃，以无为终。</p>
+                <a href="/2026/wgj/" class="product-link" target="_blank">🔍 前往了解进度</a>
+            </div>-->
+            <div class="product-card">
+                <div class="product-icon">📦</div>
+                <h3 class="product-title">CaelLabScratchPackager</h3>
+                <div class="product-status status-completed">轻松的将Scratch打包为奇形怪状的包裹</div>
+                <p class="product-description">将 Scratch 作品转换为 HTML 文件、ZIP 压缩包或 Windows、MacOS 和 Linux 的可执行文件。</p>
+                <a href="https://www.caellab.com/tool/scratchpackager/zh-CN/" target="_blank" class="product-link">📦 开始构建</a>
+            </div>
+            <!--<div class="product-card">
+                <div class="product-icon">🎉</div>
+                <h3 class="product-title">2025 Summer GameJam</h3>
+                <div class="product-status status-completed">2025-08-13 已完赛</div>
+                <p class="product-description">极限开发已完成！欢迎大家来到《第五天的庆祝》！这是一款融合冒险与解谜元素的独立游戏。</p>
+                <a href="/2025/sgj/" class="product-link" target="_blank">🧐 前往康康</a>
+            </div>-->
+            <div class="product-card">
+                <div class="product-icon">️🏫</div>
+                <h3 class="product-title">课堂小助手</h3>
+                <div class="product-status status-completed">体育老师也能轻松教数学！</div>
+                <p class="product-description">一款专为课堂教学设计的桌面辅助工具，基于 Electron 22.3.27 开发，兼容 Windows 7 及以上系统。无需键盘，点点就即刻完成操作。</p>
+                <a href="/2026/ca/" class="product-link">🏫 立即上课(?)</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🙂</div>
+                <h3 class="product-title">AreYouOK?</h3>
+                <p class="product-description">这是一个平面跳跃趣味小游戏，由 CaelLabGameTS 开发！</p>
+                <a href="https://gamets.caellab.com/areyouok/" class="product-link" target="_blank">🙂 窝要验牌</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">📦</div>
+                <h3 class="product-title">XiaomiMiMo（特别打包）</h3>
+                <p class="product-description">此产品是由小米公司开发的 XiaomiMiMo 的网页打包！</p>
+                <a href="/2025/xiaomimimo/" class="product-link" target="_blank">⏬ 前往查看</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">⌛️</div>
+                <h3 class="product-title">时间屏保</h3>
+                <p class="product-description">欢迎来到时间屏保，此屏保利用苏宁易购 API 进行时间请求</p>
+                <a href="/tool/screensaver.html" class="product-link" target="_blank">⌛️ 立即查看</a>
+            </div>
+            <!--<div class="product-card">
+                <div class="product-icon">📒</div>
+                <h3 class="product-title">TimeNotes · 时光笔记</h3>
+                <div class="product-status status-completed">自由画布，无限创作</div>
+                <p class="product-description">支持多人实时协作的数字手账，从文字手绘到音视频、3D 模型与代码块，一切元素随心摆放。</p>
+                <a href="/2026/timenotes/" class="product-link">📒 前往了解</a>
+            </div>-->
+        </div>
+    </section>
+
+    <section id="team" class="container">
+        <h2 class="section-title">精彩成员</h2>
+        <div class="team-grid">
+            <div class="member-card">
+                <img class="member-avatar" src="/static/image/member/himh.jpg" alt="HIMH">
+                <h3 class="member-name">HIMH</h3>
+                <div class="member-role">团队策划</div>
+                <div class="member-bio">
+                    又名 WP40，团队策划，游戏策划，技术支持。负责项目规划与技术选型。<a href="/member/himh" target="_blank" rel="noopener">🔎 查看详情</a>
+                </div>
+                <div class="member-sign">"此生不悔入MC，来世还做方块人。"</div>
+            </div>
+            <div class="member-card">
+                <img class="member-avatar" src="/static/image/member/marko3.jpg" alt="Marko">
+                <h3 class="member-name">Marko</h3>
+                <div class="member-role">团队活跃创作者</div>
+                <div class="member-bio">
+                    团队规划，活跃的创作者。<a href="/member/marko" target="_blank">💬 查看详情</a>
+                </div>
+                <div class="member-sign">"if(坚持== true){成功.compile();}"</div>
+            </div>
+            <div class="member-card">
+                <img class="member-avatar" src="/static/image/member/dftg.jpg" alt="倒反天狗">
+                <h3 class="member-name">倒反天狗</h3>
+                <div class="member-role">Godot 启动！</div>
+                <div class="member-bio">
+                    ??? <a href="/member/dftg" target="_blank">🌌 探索神秘</a>
+                </div>
+                <div class="member-sign">"Godot启动！嘶~这代码…… 当代码看不下去的时候就删掉重来！"</div>
+            </div>
+            <div class="member-card">
+                <img class="member-avatar" src="/static/image/member/yunyun.jpg" alt="云云">
+                <h3 class="member-name">云云</h3>
+                <div class="member-role">虚舟实验室创始人</div>
+                <div class="member-bio">
+                    出生于2013年，虚舟实验室创始人。<a href="https://130.wiki/wiki/%E7%8E%8B%E8%80%80%E6%B3%BD%EF%BC%88%E8%99%9A%E8%88%9F%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%88%9B%E5%A7%8B%E4%BA%BA%EF%BC%89" target="_blank" rel="noopener">➡️ Wiki!</a>
+                </div>
+                <div class="member-sign">"探索未知，创造可能"</div>
+            </div>
+            <div class="member-card">
+                <img class="member-avatar" src="/static/image/member/Maxkore.png" alt="Maxkore">
+                <h3 class="member-name">Maxkore</h3>
+                <div class="member-role"></div>
+                <div class="member-bio">
+                    你好,我是Maxkore. <a href="https://130.wiki/wiki/Maxkore" target="_blank">🔎 查看详情</a>
+                </div>
+                <div class="member-sign">"行胜于言!"</div>
+            </div>
+            <!--<div class="member-card">
+                <img class="member-avatar" src="/static/image/member/duck.jpg" alt="Duck">
+                <h3 class="member-name">Duck</h3>
+                <div class="member-role">理想是用代码让世界少一个bug</div>
+                <div class="member-bio">
+
+
+                </div>
+                <div class="member-sign">"用 0 和 1，编织理想"</div>
+            </div>-->
+            <!--<div class="member-card">
+                <img class="member-avatar" src="/static/image/member/xqqzlhd.png" alt="闲敲棋子落灯花">
+                <h3 class="member-name">闲敲棋子落灯花</h3>
+                <div class="member-role"></div>
+                <div class="member-bio">
+轻之舟百科核心管理
+
+                </div>
+                <div class="member-sign">"以我观物，故物皆著我之色彩"</div>
+            </div>-->
+<div class="member-card">
+    <div class="member-avatar-group">
+        <img src="/static/image/member/guoyuan2.jpg" alt="果园">
+        <img src="/static/image/member/sgmxe.jpg" alt="上古米歇尔">
+        <img src="/static/image/member/huibao.jpg" alt="MC回报">
+        <img src="/static/image/member/paidaxing.webp" alt="派大星">
+    </div>
+    <h3 class="member-name">过往成员</h3>
+    <div class="member-role">GoodBye!</div>
+    <div class="member-bio">
+        他们曾与我们并肩同行，为虚舟实验室贡献过热情与才华。
+    </div>
+    <a href="/members/runroad" class="product-link">立即查看</a>
+</div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">关于我们</h2>
+        <div class="about-content">
+            <p>虚舟实验室 (CaelLab)，专注于编程领域，致力于创作与发布优质作品。我们相信技术的力量能够改变世界，团队成员凭借对技术的热爱与执着，不断探索创新边界，追求卓越品质。我们将继续以技术为帆，探索未知边界，创造更多可能。</p>
+            <p>自2025年7月成立以来，我们已完成多个创新项目，团队规模不断扩大，技术实力持续提升。愿与您携手，共赴新程！</p>
+            <div class="quick-links"><!--
+                <a href="https://forum.xmuer.online" class="quick-link" target="_blank">💬 小论坛</a>
+                <a href="https://gamets.caellab.com" class="quick-link" target="_blank">🎮 GameTS</a>
+                <a href="https://130.wiki/wiki/%E9%A6%96%E9%A1%B5" class="quick-link" target="_blank">🌍 轻之舟百科</a>
+                <a href="https://site.caellab.com/whois/" class="quick-link" target="_blank">✂️ SiteLop</a>
+            --></div>
+        </div>
+    </section>
+
+<footer>
+<div class="footer-content">
+    <div class="footer-section">
+                <h3 class="footer-title">关于虚舟实验室</h3>
+                <p style="color: var(--text-secondary);">【探未来之境 · 载无界新生】虚舟实验室，与您共赴数字新程！</p>
+                <p>日访 <span id="busuanzi_today_pv">(需启用JS) 999+</span> 次, 总访 <span id="busuanzi_site_pv">999+</span> 次</p>
+                <p style="color: var(--footer-secondary-light); font-size: 80%; margin: 5px 0 0;">* 访问量数据自2025年12月开始统计。</p>
+                <br>
+
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">更多</h3>
+                <ul class="footer-links">
+                    <li>电子邮箱：<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcddd8d1d5d2fcdfddd9d0d0ddde92dfd3d1">[email&#160;protected]</a></li>
+
+                    <li>本站点同时支持 IPv4与IPv6 访问。
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">友情链接</h3>
+                <ul class="footer-links">
+                    <li><a href="https://rainyun.com/xzlab?s=websiteindex" rel="nofollow noopener sponsored" target="_blank">🌧️ 雨云</a></li>
+                    <li><a href="https://saobby.com/" rel="nofollow noopener sponsored" target="_blank">Saobby的主页</a></li>
+                    <li><a href="https://www.sitn.top/" rel="noopener nofollow sponsored" target="_blank">XIAO-MAO</a></li>
+                    <li><a href="https://blog.xhsr.org.cn/" rel="nofollow noopener sponsored" target="_blank">星鸿的博客</a></li>
+                    <li><a href="https://gybc.top/" rel="nofollow noopener sponsored" target="_blank">🌳 果园编程工作室</a></li>
+                    <li><a href="https://world123.top/" rel="nofollow noopener sponsored" target="_blank">鳞游の博客</a></li>
+                    <li><a href="https://www.ccwmoran.top/" rel="nofollow noopener sponsored" target="_blank">慕然科技</a></li>
+                    <li><a href="https://www.xrgzs.top/" rel="nofollow noopener sponsored" target="_blank">潇然工作室</a></li>
+                    <li><a href="https://caellab.mysxl.cn/" rel="noopener sponsored" target="_blank">上线了！</a></li>
+                    <li><a href="https://goodccw.pages.dev" rel="noopener" target="_blank">Good实验</a></li>
+                    <li><a href="https://magicianswand.caellab.com/" rel="noopener" target="_blank">MagiciansWand</a></li>
+                    <li><a href="/friendlinks/">全部友情链接...</a></li>
+                </ul>
+            </div>
+        </div>
+</footer><footer>
+
+
+<div style="text-align: center; padding: 10px; font-size: 12px; color: var(--footer-secondary);">
+    <a href="https://icp.caellab.com/icp/97257623" target="_blank" style="text-decoration: none; color: var(--footer-secondary);">
+        <img src="https://icp.caellab.com/favicon.ico" alt="舟次元ICP备案Logo" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px; border: none;">
+        舟ICP备 97257623号 (创意型作品)
+    </a>
+</div> 
+<div style="max-width: 1200px; width: 90%; margin: 0 auto; color: var(--footer-secondary); font-size: 75%; line-height: 1.4; text-align: center;">
+&copy; 2025-Present <a href="https://www.caellab.com/" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">虚舟实验室(CaelLab)</a>. All rights reserved. //
+    This Website(www.caellab.com); website source code is licensed under the <a href="https://www.caellab.com/license/bysa-code" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">CaelLab BY-SA Code License</a>;
+    content is licensed under the <a href="https://www.caellab.com/license/bysa-content" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">CaelLab BY-SA Content License</a>.协议仅约束站内文字词条内容，不适用于以下内容：虚舟实验室（CaelLab）品牌商标、Logo；从站点上下载的程序文件；第三方专有图片、素材与外部资源；另有声明的。请参阅<a href="/LICENSE.txt" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">/LICENSE.txt</a>//
+    虚舟实验室致力于尊重人权，并避免对人权造成或促成不利影响。请参阅虚舟实验室的 <a href="https://policy.caellab.com/public-policy/intro" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">《人权原则》</a>。//本站由 <a href="https://130.wiki/wiki/Cloudflare" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">Cloudflare</a> 提供网络服务，其可能收集匿名化统计数据用于安全分析与性能优化，请参阅虚舟实验室的 <a href="https://policy.caellab.com/public-policy/privacy-rights/" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">《隐私权政策》</a>中<a href="https://policy.caellab.com/public-policy/privacy-rights/#%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E5%85%B1%E4%BA%AB%E4%BF%A1%E6%81%AF" target="_blank" style="color: var(--footer-secondary); text-decoration: underline; text-underline-offset: 2px;">"我们如何共享信息？"</a>部分。
+</div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+</body>
+</html>
